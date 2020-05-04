@@ -3,9 +3,9 @@ regexbased: {
     loadui: function() {
       var that = this;
       var notes =
-        "<note>Please ensure that all product titles or all product images are highlighted, As it will be recorded as product xpath</note>";
+        "<note>Please ensure that all regex based titles are highlighted</note>";
 
-      if (storageCache.website.pe.xpathArray.length) {
+      if (storageCache.website.pe.regexbasedXpath.length) {
         Ui.loadUi(
           "minion_select.png",
           "Are all the regexbased links highlighted ? ",
@@ -15,7 +15,7 @@ regexbased: {
           notes,
           function() {
             that.xpathHighlighter = new XpathHighlighter(
-              storageCache.website.pe.xpathArray
+              storageCache.website.pe.regexbasedXpath
             );
             $("#common_container_ext").hide();
             that.secondButton();
