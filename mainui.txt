@@ -3,7 +3,7 @@ regexbased: {
     loadui: function() {
       var that = this;
       var notes =
-        "<note>Please ensure that all regex based titles are highlighted</note>";
+        "<note>Please ensure that all regex based are highlighted</note>";
 
       if (storageCache.website.pe.regexbasedXpath.length) {
         Ui.loadUi(
