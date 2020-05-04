@@ -8,7 +8,7 @@ pagination: {
       if (storageCache.website.pe.paginationxpathArray.length) {
         Ui.loadUi(
           "minion_select.png",
-          "Are all the pagination links highlighted ? ",
+          "Are all the pagination URLS",
           "yes",
           "no",
           "Toggle highlighted urls",
