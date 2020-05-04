@@ -8,7 +8,7 @@ regexbased: {
       if (storageCache.website.pe.regexbasedXpath.length) {
         Ui.loadUi(
           "minion_select.png",
-          "Are all the regexbased links highlighted ? ",
+          "Are all the regexbased URLs",
           "yes",
           "no",
           "Toggle highlighted urls",
