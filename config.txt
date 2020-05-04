@@ -4,7 +4,7 @@ success: {
         "minion_notes.png",
         "Hey.!!! Thats all... Click Save.!!!",
 		success,
-        cancel
+        defer
 
       );
     }
