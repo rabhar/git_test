@@ -3,7 +3,8 @@ success: {
       Ui.loadUi(
         "minion_notes.png",
         "Hey.!!! Thats all... Click Save.!!!",
-        "Save.."
+        "Save..",
+		"cancel.."
       );
     }
 }
