@@ -3,7 +3,7 @@ pagination: {
     loadui: function() {
       var that = this;
       var notes =
-        "<note>Please ensure that all pagination titles are highlighted ?";
+        "<note>Please ensure that all pagination links are highlighted ?";
 
       if (storageCache.website.pe.paginationxpathArray.length) {
         Ui.loadUi(
