@@ -2,9 +2,9 @@ success: {
     loadui: function() {
       Ui.loadUi(
         "minion_notes.png",
-        "Hey.!!! Thats all... Click Save.!!!",
-        "Save..",
-		"cancel"
+        "Hey.!!! Thats all... Click Save.!!!"
+        
+		
       );
     }
 }
